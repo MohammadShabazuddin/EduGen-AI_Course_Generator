@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Image from "next/image";
 import { HiOutlinePuzzle } from "react-icons/hi";
 import { Button } from "@/components/ui/button";
-import EditCourseBasicInfo from "./EditCourseBAsicInfo";
+import EditCourseBasicInfo from "./EditCourseBasicInfo";
 import { useState } from "react";
 import { ref, uploadBytes } from "firebase/storage";
 import { storage } from "@/configs/firebaseConfig";
