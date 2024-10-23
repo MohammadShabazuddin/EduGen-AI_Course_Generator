@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AI Course Generator 🚀
 
-## Getting Started
+A Full Stack AI-powered application for generating online courses, built using **Next.js**, **React**, **Node.js**, and **TailwindCSS**. This project leverages the **Gemini API** for AI-based course content generation, **Clerk** for user authentication, and **Drizzle ORM** with **PostgreSQL** for database management. 
 
-First, run the development server:
+## Key Features 📝
+- **AI-Powered Course Generation**: Automatically generate course layouts, including chapters and descriptions, using the **Gemini API**.
+- **User Authentication**: Secure login and sign-up with **Clerk**, including Google Sign-In integration.
+- **Course Customization**: Edit course titles, descriptions, chapters, and upload banner images.
+- **Video Integration**: Generate videos for each course chapter using the **YouTube API**.
+- **Shareable URL**: Each generated course comes with a unique, shareable URL that doesn’t require user authentication to view.
+- **Database Management**: **Drizzle ORM** with **PostgreSQL** is used to store course data.
+- **Image Storage**: Course banners are stored using **Firebase**.
+- **Responsive UI**: Designed with **TailwindCSS** and enhanced using components from **ShadCN** for a clean and responsive user interface.
+- **Free & Upgradeable**: Users can generate up to five courses for free, with an option to upgrade for unlimited course creation.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Technologies Used 🛠️
+- **Frontend**: Next.js, React, TailwindCSS
+- **Backend**: Node.js, Gemini API, Drizzle ORM, PostgreSQL
+- **Authentication**: Clerk (Google Sign-In, Email/Password)
+- **Image Storage**: Firebase
+- **Video Generation**: YouTube API
+- **Deployment**: Vercel
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Getting Started ⚡
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Prerequisites
+Make sure you have the following installed on your system:
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Installation
 
-## Learn More
+1. **Clone the repo:**
+   ```bash
+   git clone https://github.com/your-username/ai-course-generator.git
+   cd ai-course-generator ```
+   
+2. **Install dependencies:** <br>
+   ```npm install```
 
-To learn more about Next.js, take a look at the following resources:
+3. **Set up environment variables:** <br>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Create a .env.local file and add your API keys and environment configurations: <br>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+  NEXT_PUBLIC_GEMINI_API_KEY=your-gemini-api-key <br>
+  NEXT_PUBLIC_CLERK_FRONTEND_API=your-clerk-frontend-api <br>
+  NEXT_PUBLIC_YOUTUBE_API_KEY=your-youtube-api-key <br>
+  DATABASE_URL=your-postgresql-url <br>
+  FIREBASE_API_KEY=your-firebase-api-key <br>
 
-## Deploy on Vercel
+4. **Run the development server:** <br>
+npm run dev <br>
+Open http://localhost:3000 to view the app. <br>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+5. **Deployment** <br>
+This project is deployed via Vercel. For deploying your own version, follow these steps:
+Push your code to GitHub.
+Connect your GitHub repository to Vercel.
+Set your environment variables on Vercel.
+Deploy the app with a single click!
+<br>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
+
+
+
+
+
+   
+   
