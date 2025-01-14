@@ -60,6 +60,27 @@ Set your environment variables on Vercel.
 Deploy the app with a single click!
 <br>
 
+**Website Images:**
+![image](https://github.com/user-attachments/assets/1cb45f83-a29c-4857-81d0-d01365ae7c45)
+**Home Page:**
+![image](https://github.com/user-attachments/assets/89c97a58-3d1a-4322-92bf-1db1ae66efd2)
+**Create Course Page:**
+![image](https://github.com/user-attachments/assets/2ab28916-2f72-4068-a9e6-c36085a6124a)
+![image](https://github.com/user-attachments/assets/23c8be59-e70c-46af-b0fe-df022d2178c3)
+![image](https://github.com/user-attachments/assets/c0e28366-51fd-4e73-a527-b0e79fa7a62e)
+**Course Layout:**
+![image](https://github.com/user-attachments/assets/f9cb92c5-d9a4-44e2-8b5d-6745f3c72665)
+**Course Link:**
+![image](https://github.com/user-attachments/assets/ed7fb2d0-98d9-458e-bdc0-6425eaebbf67)
+**Final Generated Course:**
+![image](https://github.com/user-attachments/assets/6f568d9f-e574-4222-985c-5b3e264632ad)
+
+
+
+
+
+
+
 
 
 
